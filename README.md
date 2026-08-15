@@ -1,17 +1,22 @@
-# todo_list_app
+# To-Do List App
 
-A new Flutter project.
+A basic To-Do List application built with Flutter.
+
+## Features
+
+- **Task List:** View a list of your tasks, with each task displaying its title and a completion checkbox.
+- **Add Tasks:** Add a new task by typing it into the text input field at the top and pressing the "Add" button.
+- **Complete Tasks:** Tap the checkbox next to a task to mark it as completed. The task will be visually distinct with a strikethrough effect.
+- **Delete Tasks:** Delete an individual task by pressing the red "Delete" icon button next to it.
+- **Clear All:** Use the "Clear All" button at the bottom of the screen (or the sweep icon in the top app bar) to delete all tasks from the list instantly.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project on your local machine:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Ensure you have the Flutter SDK installed and added to your system `PATH`.
+2. Open a terminal in the project directory.
+3. Run the application:
+   ```bash
+   flutter run
+   ```
